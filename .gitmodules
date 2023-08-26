@@ -1,0 +1,24 @@
+[submodule "webfx-lib-odometer"]
+	path = webfx-lib-odometer
+	url = https://github.com/webfx-libs/webfx-lib-odometer.git
+[submodule "webfx-lib-medusa"]
+	path = webfx-lib-medusa
+	url = https://github.com/webfx-libs/webfx-lib-medusa.git
+[submodule "webfx-lib-enzo"]
+	path = webfx-lib-enzo
+	url = https://github.com/webfx-libs/webfx-lib-enzo.git
+[submodule "webfx-lib-circlepacking"]
+	path = webfx-lib-circlepacking
+	url = https://github.com/webfx-libs/webfx-lib-circlepacking.git
+[submodule "webfx-lib-tracerframework"]
+	path = webfx-lib-tracerframework
+	url = https://github.com/webfx-libs/webfx-lib-tracerframework
+[submodule "webfx-lib-javacupruntime"]
+	path = webfx-lib-javacupruntime
+	url = https://github.com/webfx-libs/webfx-lib-javacupruntime
+[submodule "webfx-lib-demofx"]
+	path = webfx-lib-demofx
+	url = https://github.com/webfx-libs/webfx-lib-demofx
+[submodule "webfx-lib-reusablestream"]
+	path = webfx-lib-reusablestream
+	url = https://github.com/webfx-libs/webfx-lib-reusablestream.git

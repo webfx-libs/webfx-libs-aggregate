@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Setting webfx-parent to inherit same dependencyManagement as submodules (for Maven site & JavaDoc)  -->
+    <parent>
+        <groupId>dev.webfx</groupId>
+        <artifactId>webfx-parent</artifactId>
+        <version>0.1.0-SNAPSHOT</version>
+        <relativePath/>
+    </parent>
+
+    <artifactId>webfx-libs-aggregate</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+
+    <packaging>pom</packaging>
+
+    <repositories>
+
+        <!-- For WebFX snapshots download (required for now for the CLI Maven workspace) -->
+        <repository>
+            <id>webfx-snapshots</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <releases>
+                <enabled>false</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+
+    </repositories>
+
+    <modules>
+        <module>webfx-lib-circlepacking</module>
+        <module>webfx-lib-demofx</module>
+        <module>webfx-lib-enzo</module>
+        <module>webfx-lib-javacupruntime</module>
+        <module>webfx-lib-medusa</module>
+        <module>webfx-lib-odometer</module>
+        <module>webfx-lib-reusablestream</module>
+        <module>webfx-lib-tracerframework</module>
+    </modules>
+
+</project>
